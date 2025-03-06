@@ -17,7 +17,7 @@ const page = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            tour &amp; Travel
+            Travel Today
           </h1>
           <div
             className="main-hero-image bgs-cover"

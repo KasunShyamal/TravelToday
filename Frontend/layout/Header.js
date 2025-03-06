@@ -236,6 +236,14 @@ const Header1 = ({ sidebarClick }) => {
                   <span data-hover="Book Now">Book Now</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
+
+                <Link
+                  href="login"
+                  className="theme-btn style-two bgc-secondary"
+                >
+                  <span data-hover="Login">Login</span>
+                  <i className="fas fa-sign-in-alt" />
+                </Link>
                 {/* menu sidbar */}
                 <div className="menu-sidebar" onClick={() => sidebarClick()}>
                   <button className="bg-transparent">
